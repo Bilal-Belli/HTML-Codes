@@ -14,6 +14,8 @@ hello world, this is a <br/> break
 <ins><br/>inserted text</ins>
 <del><br/>deleted text</del> 
 
+<!-- _________________________________________________________________ --> 
+
 <br/>
 this is a horizontal line <hr/>  
 
@@ -31,8 +33,97 @@ this is a horizontal line <hr/>
 
 <img src="images.png" alt="your connection is slow to load this picture" width="20%" height="50%" border="1px">
 
+<br/>
+<a href="https://www.google.fr" target="_blank" >this is a link to open in a new tabe: </a> 
 
 
+<!-- _________________________________________________________________ --> 
+
+
+<br/>
+this an image that have link:
+<a href="https://www.google.fr" target="_blank" ><br/>
+	<img src="images.png" alt="your connection is slow to load this picture" width="20%" height="50%" border="1px">
+</a> 
+
+
+<br/>
+this is an ordred list
+<ol>
+	<li> first listed item</li>
+	<li> second listed item</li>
+</ol>
+
+<!-- _________________________________________________________________ --> 
+
+<br/>
+this is table 2*2
+<table border="3px">
+	<tr>
+		<td> <a href="https://www.google.fr/"> 1.1 </a> </td>
+		<td>1.2</td>
+	</tr>
+	<tr>
+		<td>2.1</td>
+		<td>2.2</td>
+	</tr>
+</table>
+
+this is table 2*3 with span
+<table border="3px">
+	<tr>
+		<td> 1.1 </td>
+		<td bgcolor="red">1.2</td>
+		<td>1.3</td>
+	</tr>
+	<tr>
+		<td>2.1</td>
+		<td colspan="2" bgcolor="green">2.2</td>
+	</tr>
+</table>
+
+<!-- _________________________________________________________________ --> 
+
+<div style="background-color: green ; color: white ; width: 700px ; height: 100px ; text-align: center" >
+	This is some paragraph on one block
+</div>
+
+<!-- _________________________________________________________________ --> 
+
+an iframe object<br/>
+<iframe src="images.png" width="30%" height="150px">	</iframe>
+<br/>
+ 
+ <!-- _________________________________________________________________ --> 
+
+<br/>this is an image map, like a link incide an image://there is a link below on the orange one<br/>
+<img src="images.png"  usemap="#workmap"  >
+<map name="workmap">
+    <area target="_blank" alt="html-site-that-make-image-coordonates"  href="https://www.image-map.net/" coords="97,122,114,131,130,127,134,115,122,114,103,112" shape="poly">
+</map>
+
+<!-- ________________________________FORMS_________________________________ --> 
+
+<hr/>
+
+<form action="https://www.image-map.net/" method="POST"  ><!--post is secure because it not save date in browser history--> 
+	 
+		 <input type="text" name="username"	value="username">
+		 <br/>
+		 <input type="password" name="password" value="password" > 
+		 <br/>
+		 <input type="radio" name="genre"  value="male" > male
+		 <br/>
+		 <input type="radio" name="genre" value="female"  > female 
+		 <br/>
+		 <input type="checkbox" name="fruit" value="banana" > banana
+		 <br/>
+		 <input type="checkbox" name="fruit" value="apple" > apple
+		 <br/>
+		 <input type="submit"  value="submit" >  
+</form>
+
+<!-- _________________________________________________________________ --> 
 
 </body>
 </html>
